@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const token = '6693904839:AAHlXrC8S1mTyVbX3ASpE4ZoNhJqtbKDyVA';
-const webAppUrl = 'https://ornate-selkie-c27577.netlify.app';
+const webAppUrl = 'https://main--cool-manatee-c66705.netlify.app/';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
